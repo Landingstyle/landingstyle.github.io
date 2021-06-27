@@ -1795,19 +1795,19 @@ a:hover {
   padding-right: 0;
 }
 
-@media (min-width: 1140px) and (max-width: 1315px) {
+@media (min-width: 1140px) and (max-width: 1335px) {
   .cid-szKSWwKvKg .nav-link {
     font-size: 1.5rem;
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1140px) {
+@media (min-width: 1055px) and (max-width: 1140px) {
   .cid-szKSWwKvKg .nav-link {
     font-size: 1.3rem;
   }
 }
 
-@media (min-width: 991px) and (max-width: 1025px) {
+@media (min-width: 991px) and (max-width: 1055px) {
   .cid-szKSWwKvKg .nav-link {
     font-size: 1.2rem;
   }
@@ -1819,3 +1819,17 @@ a:hover {
     font-size: 4vw;
   }
 }
+
+@media (max-width: 390px) {
+  .cid-szEjRmQ4iR h1 {
+    font-size: 1.8rem;
+    line-height: normal;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1415px) {
+  .cid-sAuXaIcVOm h5 {
+    font-size: 1.9rem;
+  }
+}
+
