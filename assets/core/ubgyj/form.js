@@ -5,7 +5,7 @@ let modalSuccess = document.querySelector('.modal-success');
 
 submitBtn.addEventListener('click', () => {
     let formData = new FormData(form);
-    fetch('assets/form/sendmail.php', {
+    fetch('https://shulginhypnos.ru/assets/form/sendmail.php', {
        method: 'POST',
        body: formData
     }).then(function (response) {
