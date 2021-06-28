@@ -31,7 +31,7 @@ submitBtn.addEventListener('click', () => {
    // for (var pair of formData.entries()) {
    //    console.log(pair[0]+ ', ' + pair[1]);
    // }
-   fetch('assets/form/sendmail.php', {
+   fetch('https://shulginhypnos.ru/assets/form/sendmail.php', {
       method: 'POST',
       body: formData
    }).then(function (response) {
