@@ -411,8 +411,8 @@ body {
 
 .btn-danger-outline:hover {
   color: #fff!important;
-  background-color: #e8004f;
-  border-color: #e8004f ;
+  background-color: #ff4081;
+  border-color: #ff4081 ;
   box-shadow: none;
 }
 .btn-danger-outline.disabled,
