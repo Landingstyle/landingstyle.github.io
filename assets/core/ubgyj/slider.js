@@ -9,6 +9,10 @@ let priceBtnFour = document.getElementById('priceFour');
 
 let price = "";
 
+function closeModal() {
+   $('#formModal').modal('hide');
+}
+
 priceBtnOne.addEventListener('click', () => {
    price = "Разовая консультация";
 });
@@ -28,18 +32,20 @@ priceBtnFour.addEventListener('click', () => {
 submitBtn.addEventListener('click', () => {
    let formData = new FormData(form);
    formData.append("price", price);
-   // for (var pair of formData.entries()) {
-   //    console.log(pair[0]+ ', ' + pair[1]);
-   // }
+   for (var pair of formData.entries()) {
+      console.log(pair[0]+ ', ' + pair[1]);
+   }
+   
    fetch('https://shulginhypnos.ru/assets/form/sendmail.php', {
       method: 'POST',
       body: formData
    }).then(function (response) {
-      // console.log(response)
+      console.log(response)
       if (response.ok) {
          modalSuccess.innerHTML = '<p><strong>Заявка отправлена! Мы перезвоним Вам в ближайшее время!</strong></p>'
+         setTimeout(closeModal, 3000);
       }
    }).catch(function (error) {
-      // console.log(error);
+      console.log(error);
    });
 });
