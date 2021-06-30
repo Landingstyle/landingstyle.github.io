@@ -43,7 +43,7 @@ submitBtn.addEventListener('click', () => {
       console.log(response)
       if (response.ok) {
          modalSuccess.innerHTML = '<p><strong>Заявка отправлена! Мы перезвоним Вам в ближайшее время!</strong></p>'
-         setTimeout(closeModal, 3000);
+         setTimeout(closeModal, 1000);
       }
    }).catch(function (error) {
       console.log(error);
