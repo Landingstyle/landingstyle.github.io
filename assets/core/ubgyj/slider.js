@@ -102,7 +102,4 @@ submitBtn.addEventListener('click', () => {
    } else {
       modalSuccess.innerHTML = '<p style="color: #ff4081;"><strong>Пожалуйста, заполните корректно все обязательные поля.</strong></p>'
    }
-   
-      modalSuccess.innerHTML = '<p style="color: #ff4081;"><strong>Пожалуйста, заполните корректно все обязательные поля.</strong></p>'
-   
 });
