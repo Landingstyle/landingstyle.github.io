@@ -2,7 +2,7 @@ let size = 500;
 if ($(window).width() < 1200) {
 	size = 250;
 };
-$(document.body).append(`<a href="https://webup.icu" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="${size}" height="${size}" viewBox="0 0 500 500" xml:space="preserve" style="position: fixed; bottom: 0;">
+$(document.body).append(`<a href="https://webup.icu" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="${size}" height="${size}" viewBox="0 0 500 500" xml:space="preserve" style="position: fixed; bottom: 0; z-index: 9999">
 <desc>Created with Fabric.js 4.6.0</desc>
 <defs>
 </defs>
