@@ -1,4 +1,4 @@
-let size = 500;
+let size = 350;
 if ($(window).width() < 1200) {
 	size = 250;
 };
