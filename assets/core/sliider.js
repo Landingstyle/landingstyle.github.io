@@ -6,7 +6,7 @@ if ($(window).width() < 650)  {
 } else if ($(window).width() > 1200)  {
 	size = 280;
 };
-$(document.body).append(`<a href="https://webup.icu" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="${size}" height="${size}" viewBox="0 0 500 500" xml:space="preserve" style="position: fixed; bottom: 0; z-index: 9999">
+$(document.body).append(`<a href="https://webup.icu" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="${size}" height="${size}" viewBox="0 0 500 500" xml:space="preserve" style="position: fixed; bottom: 0; z-index: 9999; display: block;">
 <desc>Created with Fabric.js 4.6.0</desc>
 <defs>
 </defs>
