@@ -6,7 +6,7 @@ if (window.innerWidth < 650)  {
 } else if (window.innerWidth > 1200)  {
 	size = 280;
 };
-document.body.insertAdjacentHTML("beforebegin", `<a href="https://webup.icu" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="${size}" height="${size}" viewBox="0 0 500 500" xml:space="preserve" style="position: fixed; bottom: 0; z-index: 9999; display: block;">
+document.body.insertAdjacentHTML("beforebegin", `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="${size}" height="${size}" viewBox="0 0 500 500" xml:space="preserve" style="position: fixed; bottom: 0; z-index: 9999; display: block;">
 <desc>Created with Fabric.js 4.6.0</desc>
 <defs>
 </defs>
@@ -27,4 +27,4 @@ document.body.insertAdjacentHTML("beforebegin", `<a href="https://webup.icu" tar
 <g transform="matrix(0.71 0.71 -0.71 0.71 171.32 277.83)" style="" id="3Bduw2AN8wMmOXoiThK65"  >
 		<text xml:space="preserve" font-family="Comfortaa" font-size="29" font-style="normal" font-weight="600" line-height="1" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-150.88" y="7.88" >Веб-сайт в разработке!</tspan></text>
 </g>
-</svg></a>`);
+</svg>`);
